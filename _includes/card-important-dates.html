@@ -1,30 +1,39 @@
 <div class="card">
-    <div class="card-header text-white bg-inverse">
-        <i class="fa fa-calendar-o mr-3" aria-hidden="true"></i><strong>Important Dates</strong>
+    <div class="card-header">
+        <h5 class="mb-0">Important Dates</h5>
     </div>
-    <div class="card-block bg-faded">
-        <ul class="list-group list-group-flush">
-            {% if site.data.conference.deadlines %}
-                {% for deadline in site.data.conference.deadlines %}
-                    
-                        <li class="list-group-item bg-faded text-muted">
-                            {% if deadline.pass_due %}
-                            <del>
-                            {% endif %}
-                                <p><strong>{{ deadline.text }}:</strong> 
-                                {% if deadline.timezone %}
-                                {{ deadline.date | date: "%B %e, %Y." }} ({{ deadline.timezone }})
-                                {% else %}
-                                {{ deadline.date | date: "%B %e, %Y." }}
-                                {% endif %}</p>
-                            {% if deadline.pass_due %}
-                            </del>
-                            {% endif %}
-                        </li>
-                {% endfor %}
-            {% else %}
-                <li class="list-group-item bg-faded text-muted">TBA</li>
-            {% endif %}
-        </ul>
+    <div class="card-body">
+        <table class="table table-sm table-borderless">
+            <tbody>
+                <tr>
+                    <td>Abstract Submission</td>
+                    <td><strong>22 March, 2027</strong></td>
+                </tr>
+                <tr>
+                    <td>Abstract Acceptance Notification</td>
+                    <td><strong>29 March, 2027</strong></td>
+                </tr>
+                <tr>
+                    <td>Manuscript Draft Submission</td>
+                    <td><strong>31 May, 2027</strong></td>
+                </tr>
+                <tr>
+                    <td>Review Completed</td>
+                    <td><strong>28 June, 2027</strong></td>
+                </tr>
+                <tr>
+                    <td>Final Paper Submission</td>
+                    <td><strong>19 July, 2027</strong></td>
+                </tr>
+                <tr>
+                    <td>Presentation Slides (English & Chinese)</td>
+                    <td><strong>26 July, 2027</strong></td>
+                </tr>
+                <tr>
+                    <td>Seminar Date</td>
+                    <td><strong>19–20 August, 2027</strong></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </div>
