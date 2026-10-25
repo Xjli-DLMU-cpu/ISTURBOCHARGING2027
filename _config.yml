@@ -14,6 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+title: ISTURBOCHARGING2027
+email: xjli@dlmu.edu.cn
+description: INTERNATIONAL SEMINAR OF TURBOCHARGING 2027
 baseurl: "/ISTURBOCHARGING2027/" # the subpath of your site, e.g. /blog
 url: "https://Xjli-DLMU-cpu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 css: ./assets/hotweb.css
