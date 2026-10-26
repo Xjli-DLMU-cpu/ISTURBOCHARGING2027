@@ -1,11 +1,11 @@
-full_title: Fifth ACM/IEEE Workshop on Hot Topics in Web Systems and Technologies
-short_title: Hotweb 2017
-email: hotweb2017@gmail.com
+full_title: INTERNATIONAL SEMINAR OF TURBOCHARGING 2027
+short_title: ISTURBOCHARGING 2027
+email: xingcage@dlmu.edu.cn
 description: > # this means to ignore newlines until "baseurl:"
-  HotWeb is a forum bringing together researchers and practitioners interested 
-  in the design, implementation, and evaluation of Internet systems and applications. 
-location: San Jose, CA, 2017
-date: October 14, 2017
+  Turbocharging Seminar is an international seminar series focusing on 
+  engine turbocharging and turbomachinery technologies.
+location: Dalian, P.R. China, 2027
+date: August 19-20, 2027
 logo_path: ./assets/images/logo2017.jpg
 slideshow:
   - id: 0
