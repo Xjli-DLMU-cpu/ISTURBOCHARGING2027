@@ -46,7 +46,7 @@ navbar:
     visible: True
   - id: 1
     label: Organization
-    path: /organization.html
+    path: /committees.html
     visible: True
   - id: 2
     label: Call for Papers
