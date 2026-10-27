@@ -10,35 +10,35 @@ logo_path: ./assets/images/logo2017.jpg
 slideshow:
   - id: 0
     image_path: ./assets/images/slideshow/image0.jpg
-    description: San Jose night scene
-    photographer_name: Mike Boening
-    photographer_link: https://www.flickr.com/photos/memoriesbymike/
+    description: main gate of DMU
+    photographer_name: 
+    photographer_link: 
     active: True
   - id: 1
     image_path: ./assets/images/slideshow/image1.jpg
-    description: San Jose Museum of Art
-    photographer_name: Bryan Nabong
-    photographer_link: https://www.flickr.com/photos/bongarang/
+    description: university motto
+    photographer_name: 
+    photographer_link: 
   - id: 2
     image_path: ./assets/images/slideshow/image2.jpg
-    description: San Jose State University
-    photographer_name: David Sawyer
-    photographer_link: https://www.flickr.com/photos/18702768@N04/
+    description: Xinhai lake and the library
+    photographer_name: 
+    photographer_link:
   - id: 3
     image_path: ./assets/images/slideshow/image3.jpg
-    description: Cathedral Basilica of St. Joseph
-    photographer_name: Patricia Montes Gregory
-    photographer_link: https://www.flickr.com/photos/32159045@N02/
+    description: exhibition hall of DMU
+    photographer_name: 
+    photographer_link: 
   - id: 4
     image_path: ./assets/images/slideshow/image4.jpg
-    description: Winchester Mystery House
-    photographer_name: Pomax
-    photographer_link: https://www.flickr.com/photos/pomax/
+    description: administration building of DMU
+    photographer_name:
+    photographer_link:
   - id: 5
     image_path: ./assets/images/slideshow/image5.jpg
-    description: Rose Garden Branch Library
-    photographer_name: John Menard
-    photographer_link: https://www.flickr.com/photos/jmenard48/
+    description: Bird's-eye view of the cumpas
+    photographer_name: 
+    photographer_link: 
 navbar:
   - id: 0
     label: Home
