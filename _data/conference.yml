@@ -136,8 +136,30 @@ organizing_committees:
   - name: Ms Yanfang Zhang
     org: Cummins Turbo Technologies, China
     homepage:
-  - name: Dr Ronchao Zhao
+advisory_committees:
+  - name: Dr Aiguo GU
+    org: Cummins Turbo Technologies, China
+    homepage:
+  - name: Prof. Xiaozhen SHENG
+    org: Shanghai University of Engineering Science, China
+    homepage:
+  - name: Dr Harold SUN
+    org: Caterpillar Inc., US
+    homepage:
+  - name: Dr Jinhui SUN
+    org: Caterpillar Inc., US
+    homepage:
+  - name: Dr Xuefeng ZHANG
+    org: Xeka Turbo, China
+    homepage:
+  - name: Dr Rongchao ZHAO
     org: South China University of Technology, China
+    homepage:
+  - name: Prof. Xinqian ZHENG
+    org: Tsinghua University, China
+    homepage:
+  - name: Prof. Qiang ZHU
+    org: Southern University of Science and Technology, China
     homepage:
 conference_secretariat:
   - name: Dr Hui XING
