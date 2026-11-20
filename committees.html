@@ -58,7 +58,7 @@ slide_id: 1
 <!--######### Advosory ##########-->
             <div class="card">
                 <div class="card-header text-white bg-inverse"><i class="fa fa-users mr-3" aria-hidden="true"></i>Advisory Committee</div>
-                {% if site.data.conference.advisory_committee %}
+                {% if site.data.conference.advisory_committees %}
                 {% for committee in site.data.conference.advisory_committees %}
                  <div class="card-block bg-faded">
                     {% if committee.role %}<h6 class="card-title">{{ committee.role }}</h6>{% endif %}
