@@ -58,7 +58,7 @@ slide_id: 1
             <div class="card">
                 <div class="card-header text-white bg-inverse"><Advisory Committee</strong></div>
                 {% if site.data.conference.advisory_committee %}
-                {% for committee in site.data.conference.advisory_committee %}
+                {% for committee in site.data.conference.advisory_committees %}
                  <div class="card-block bg-faded committee">
                     {% if committee.homepage and committee.homepage != blank %}
                     <p><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a><p>
